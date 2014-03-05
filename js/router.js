@@ -9,9 +9,7 @@ define([
 
   var Router = Backbone.Router.extend({
     routes: {
-      "" : "home",
-      "dd/:id": "doctorDashboard",
-      "newpatient": "newPatient",
+      "" : "home"
     }
   });
 
