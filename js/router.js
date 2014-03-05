@@ -19,7 +19,7 @@ define([
     window.router.on("route:home", function() {
       console.log("Home page");
       var model = new ListModel();
-      mainView = ViewManager.create({}, 'DDView', MainView, {model : model});
+      mainView = ViewManager.create({}, 'mainView', MainView, {model : model});
     });
 
     Backbone.history.start();
